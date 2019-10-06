@@ -1,0 +1,17 @@
+import turtle
+turtle.setup(700,700,300,300)
+turtle.penup()
+turtle.fd(-150)
+turtle.pendown()
+turtle.pensize(25)
+turtle.pencolor("red")
+turtle.seth(-40)
+for i in range(4):
+    turtle.circle(60,80)
+    turtle.circle(-60,80)
+turtle.circle(40,80/2)
+turtle.fd(40)
+turtle.circle(70,180)
+turtle.fd(50*2/3)
+turtle.circle(-70,180)
+turtle.fd(50*2/3)
